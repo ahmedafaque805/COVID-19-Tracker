@@ -106,11 +106,11 @@ function App() {
 
 
       <div>
-        <Card style={{margin:"1.5rem"}}>
-        <CardContent>
-          <h3>Worldwide new Cases</h3>
-        <LineGraph casesType={casesType} />
-        </CardContent>
+        <Card style={{ margin: "1.5rem" }}>
+          <CardContent>
+            <h3>Worldwide new Cases</h3>
+            <LineGraph casesType={casesType} />
+          </CardContent>
         </Card>
       </div>
 
