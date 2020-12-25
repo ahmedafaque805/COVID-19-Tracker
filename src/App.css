@@ -37,6 +37,9 @@ body {
 .table td{
     padding: 0.5rem;
 }
+.app-right{
+    margin-bottom: 2rem;
+}
 
 @media (max-width: 990px){
     .infoBox{
@@ -57,6 +60,9 @@ body {
 @media (max-width: 500px){
     .app-i{
         flex-direction: column;
+    }
+    .dropd{
+       
     }
     
 }
