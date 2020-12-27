@@ -45,7 +45,16 @@ body {
 .Middle-app{
     display: flex;
 }
-
+.lower-app{
+  display: flex;
+  margin: 1.5rem;
+}
+.piechart{
+  flex: 0.3;
+}
+.precautions{
+  margin: 0 0 0 1.5rem;
+}
 .app-left{
     flex: 0.97;
 }
@@ -119,18 +128,34 @@ body {
     font-size: 16px;
     margin-top: 5px;
   }
-
-@media (max-width: 990px){
+  
+  footer{
+    background: #dc3545;
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
+  }
+  
+  @media (max-width: 990px){
     .infoBox{
-        margin-top: 1rem;
+      margin-top: 1rem;
     }
     .Middle-app{
-        flex-direction: column;
+      flex-direction: column;
     }
     .app-right{
         margin: 1.5rem;
     }
+    .lower-app{
+      flex-direction: column;
+    }
+    .precautions{
+      margin-top: 2rem;
+      margin-left: 0;
+    }
 }
+
+
 
 @media (max-width: 500px){
     .app-i{
@@ -138,6 +163,13 @@ body {
     }
     .map{
         height: 300px;
+    }
+    .lower-app{
+      flex-direction: column;
+    }
+    .precautions{
+      margin-top: 2rem;
+      margin-left: 0;
     }
     
 }
